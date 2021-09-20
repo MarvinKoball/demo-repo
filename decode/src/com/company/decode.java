@@ -4,8 +4,8 @@ class decode {
     public static String decode(String r) {
         String[] num = r.split("([a-z])");
         String[] let = r.split("([0-9])");// your code
-        String s=new String();
-        String p=new String();
+        String s=new String(); // String für Zahlen
+        String p=new String(); // String für Buchstaben
 
         for (int i=0;i<num.length;i++){
             s+= num[i];
